@@ -1,0 +1,54 @@
+/*div colors*/
+#colors{
+	background-color: #F5F6F4;
+	padding:25px;	
+	margin: 25px;
+}
+
+.palette-img{
+	width: 25%;
+	height: 25%;
+	margin-left: 10px;
+}
+
+.palette-img-example{
+	width: 200px;
+	height: 100px;
+	margin-left: 10px;
+}
+
+.circle {
+	width: 100px;
+	height: 100px;
+	background: red;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	display: inline-block;
+}
+
+/*palette num 1*/
+.color-CCCEC9{ background-color: #CCCEC9; }
+.color-3B3432{ background-color: #3B3432; }
+.color-D05352{ background-color: #D05352; }
+.color-FFAE99{ background-color: #FFAE99; }
+.color-FFDCCD{ background-color: #FFDCCD; }
+
+/*palette num 2*/
+.color-FFB997{ background-color: #FFB997; }
+.color-F67E7D{ background-color: #F67E7D; }
+.color-843B62{ background-color: #843B62; }
+.color-0B032D{ background-color: #0B032D; }
+.color-74546A{ background-color: #74546A; }
+
+/*palette num 3*/
+.color-ED6A5A{ background-color: #ED6A5A; }
+.color-F4F1BB{ background-color: #F4F1BB; }
+.color-9BC1BC{ background-color: #9BC1BC; }
+.color-5CA4A9{ background-color: #5CA4A9; }
+.color-E6EBE0{ background-color: #E6EBE0; }
+
+#palette .color-title{
+	color: grey;
+	padding-top: 100px;
+}
