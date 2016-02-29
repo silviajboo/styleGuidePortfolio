@@ -1,4 +1,4 @@
-/* line 1, _elements.scss */
+/* line 1, ../scss/_elements.scss */
 body {
   font-family: 'Domine', serif;
   font-weight: 400;
@@ -9,7 +9,7 @@ body {
   margin-right: 15px;
 }
 
-/* line 11, _elements.scss */
+/* line 11, ../scss/_elements.scss */
 h1 {
   font-family: 'Montserrat', Helvetica, sans-serif;
   font-weight: 400;
@@ -18,13 +18,13 @@ h1 {
   line-height: 60px;
 }
 
-/* line 19, _elements.scss */
+/* line 19, ../scss/_elements.scss */
 h1.title {
   text-align: center;
   color: #ED6A5A;
 }
 
-/* line 24, _elements.scss */
+/* line 24, ../scss/_elements.scss */
 h2 {
   font-family: 'Montserrat', Helvetica, sans-serif;
   font-size: 36px;
@@ -33,21 +33,21 @@ h2 {
   font-style: normal;
 }
 
-/* line 32, _elements.scss */
+/* line 32, ../scss/_elements.scss */
 h2.subtitle {
   text-align: center;
   color: grey;
   padding-top: 200px;
 }
 
-/* line 38, _elements.scss */
+/* line 38, ../scss/_elements.scss */
 h2.subtitle-btn {
   text-align: center;
   color: #E6EBE0;
   padding-top: 200px;
 }
 
-/* line 46, _elements.scss */
+/* line 46, ../scss/_elements.scss */
 h3 {
   font-family: 'Montserrat', Helvetica, sans-serif;
   font-size: 28px;
@@ -56,12 +56,12 @@ h3 {
   font-style: normal;
 }
 
-/* line 53, _elements.scss */
+/* line 53, ../scss/_elements.scss */
 h3.strong {
   color: #ED6A5A;
 }
 
-/* line 57, _elements.scss */
+/* line 57, ../scss/_elements.scss */
 h4 {
   font-family: 'Montserrat', Helvetica, sans-serif;
   font-size: 25px;
@@ -70,7 +70,7 @@ h4 {
   font-style: normal;
 }
 
-/* line 65, _elements.scss */
+/* line 65, ../scss/_elements.scss */
 h5 {
   font-family: 'Montserrat', Helvetica, sans-serif;
   font-size: 18px;
@@ -78,7 +78,7 @@ h5 {
   font-style: normal;
 }
 
-/* line 72, _elements.scss */
+/* line 72, ../scss/_elements.scss */
 p {
   font-family: 'Domine', serif;
   font-size: 16px;
@@ -86,13 +86,13 @@ p {
   font-style: normal;
 }
 
-/* line 79, _elements.scss */
+/* line 79, ../scss/_elements.scss */
 section {
   font-family: 'Domine', serif;
   font-size: 18px;
 }
 
-/* line 84, _elements.scss */
+/* line 84, ../scss/_elements.scss */
 ul {
   font-family: 'Lato', sans-serif;
   font-size: 16px;
@@ -100,14 +100,14 @@ ul {
   line-height: 2;
 }
 
-/* line 91, _elements.scss */
+/* line 91, ../scss/_elements.scss */
 ol {
   font-family: 'Lato', sans-serif;
   font-size: 16px;
   line-height: 2;
 }
 
-/* line 97, _elements.scss */
+/* line 97, ../scss/_elements.scss */
 dt {
   font-family: 'Roboto', sans-serif;
   font-size: 25px;
@@ -115,26 +115,26 @@ dt {
   padding: 10px;
 }
 
-/* line 104, _elements.scss */
+/* line 104, ../scss/_elements.scss */
 dd {
   font-family: 'Roboto Thin', sans-serif;
   font-size: 16px;
   padding: 10px;
 }
 
-/* line 110, _elements.scss */
+/* line 110, ../scss/_elements.scss */
  
 a {
   font-style: oblique;
   font-variant: small-caps;
 }
 
-/* line 115, _elements.scss */
+/* line 115, ../scss/_elements.scss */
 mark {
   background-color: #ED6A5A;
 }
 
-/* line 119, _elements.scss */
+/* line 119, ../scss/_elements.scss */
 p.quote {
   font-size: 23px;
   line-height: 28px;
@@ -146,7 +146,7 @@ p.quote {
   background-color: #E6EBE0;
 }
 
-/* line 130, _elements.scss */
+/* line 130, ../scss/_elements.scss */
 a {
   color: #4281A4;
   font-family: helvetica;
@@ -154,17 +154,17 @@ a {
   text-decoration: none;
 }
 
-/* line 136, _elements.scss */
+/* line 136, ../scss/_elements.scss */
 a:hover {
   color: #F25F5C;
 }
 
-/* line 140, _elements.scss */
+/* line 140, ../scss/_elements.scss */
 input {
   background-color: #9CAFB7;
 }
 
-/* line 1, _menu.scss */
+/* line 1, ../scss/_menu.scss */
 #menu-header {
   position: fixed;
   top: 0;
@@ -175,7 +175,7 @@ input {
   margin-top: 20px;
 }
 
-/* line 11, _menu.scss */
+/* line 11, ../scss/_menu.scss */
 #menu-bar {
   float: right;
   padding: 15px;
@@ -183,24 +183,24 @@ input {
 }
 
 /*lista del menu principal del header*/
-/* line 18, _menu.scss */
+/* line 18, ../scss/_menu.scss */
 #menu-bar li {
   display: inline-block;
 }
 
-/* line 22, _menu.scss */
+/* line 22, ../scss/_menu.scss */
 .menu {
   float: right;
   margin-right: 50px;
   color: grey;
 }
 
-/* line 28, _menu.scss */
+/* line 28, ../scss/_menu.scss */
 .ddl-menu {
   background-color: #ffffff;
 }
 
-/* line 31, _menu.scss */
+/* line 31, ../scss/_menu.scss */
 .ddl-menu::before {
   width: 0;
   height: 0;
@@ -210,7 +210,7 @@ input {
 }
 
 /*div typography*/
-/* line 2, _typography.scss */
+/* line 2, ../scss/_typography.scss */
 #typography {
   background-color: #CBE0DD;
   padding: 25px;
@@ -218,28 +218,28 @@ input {
 }
 
 /*div colors*/
-/* line 2, _colors.scss */
+/* line 2, ../scss/_colors.scss */
 #colors {
   background-color: #F5F6F4;
   padding: 25px;
   margin: 25px;
 }
 
-/* line 8, _colors.scss */
+/* line 8, ../scss/_colors.scss */
 .palette-img {
   width: 25%;
   height: 25%;
   margin-left: 10px;
 }
 
-/* line 14, _colors.scss */
+/* line 14, ../scss/_colors.scss */
 .palette-img-example {
   width: 200px;
   height: 100px;
   margin-left: 10px;
 }
 
-/* line 20, _colors.scss */
+/* line 20, ../scss/_colors.scss */
 .circle {
   width: 100px;
   height: 100px;
@@ -251,91 +251,91 @@ input {
 }
 
 /*palette num 1*/
-/* line 31, _colors.scss */
+/* line 31, ../scss/_colors.scss */
 .color-CCCEC9 {
   background-color: #CCCEC9;
 }
 
-/* line 32, _colors.scss */
+/* line 32, ../scss/_colors.scss */
 .color-3B3432 {
   background-color: #3B3432;
 }
 
-/* line 33, _colors.scss */
+/* line 33, ../scss/_colors.scss */
 .color-D05352 {
   background-color: #D05352;
 }
 
-/* line 34, _colors.scss */
+/* line 34, ../scss/_colors.scss */
 .color-FFAE99 {
   background-color: #FFAE99;
 }
 
-/* line 35, _colors.scss */
+/* line 35, ../scss/_colors.scss */
 .color-FFDCCD {
   background-color: #FFDCCD;
 }
 
 /*palette num 2*/
-/* line 38, _colors.scss */
+/* line 38, ../scss/_colors.scss */
 .color-FFB997 {
   background-color: #FFB997;
 }
 
-/* line 39, _colors.scss */
+/* line 39, ../scss/_colors.scss */
 .color-F67E7D {
   background-color: #F67E7D;
 }
 
-/* line 40, _colors.scss */
+/* line 40, ../scss/_colors.scss */
 .color-843B62 {
   background-color: #843B62;
 }
 
-/* line 41, _colors.scss */
+/* line 41, ../scss/_colors.scss */
 .color-0B032D {
   background-color: #0B032D;
 }
 
-/* line 42, _colors.scss */
+/* line 42, ../scss/_colors.scss */
 .color-74546A {
   background-color: #74546A;
 }
 
 /*palette num 3*/
-/* line 45, _colors.scss */
+/* line 45, ../scss/_colors.scss */
 .color-ED6A5A {
   background-color: #ED6A5A;
 }
 
-/* line 46, _colors.scss */
+/* line 46, ../scss/_colors.scss */
 .color-F4F1BB {
   background-color: #F4F1BB;
 }
 
-/* line 47, _colors.scss */
+/* line 47, ../scss/_colors.scss */
 .color-9BC1BC {
   background-color: #9BC1BC;
 }
 
-/* line 48, _colors.scss */
+/* line 48, ../scss/_colors.scss */
 .color-5CA4A9 {
   background-color: #5CA4A9;
 }
 
-/* line 49, _colors.scss */
+/* line 49, ../scss/_colors.scss */
 .color-E6EBE0 {
   background-color: #E6EBE0;
 }
 
-/* line 51, _colors.scss */
+/* line 51, ../scss/_colors.scss */
 #palette .color-title {
   color: grey;
   padding-top: 100px;
 }
 
 /*div buttons*/
-/* line 2, _buttons.scss */
+/* line 2, ../scss/_buttons.scss */
 #buttons {
   background-color: #9F5B7F;
   padding: 25px;
@@ -343,12 +343,12 @@ input {
   min-height: 450px;
 }
 
-/* line 9, _buttons.scss */
+/* line 9, ../scss/_buttons.scss */
 .btn-line {
   margin: 15px;
 }
 
-/* line 13, _buttons.scss */
+/* line 13, ../scss/_buttons.scss */
 .btn {
   width: 160px;
   height: 35px;
@@ -361,20 +361,20 @@ input {
   font-size: small;
 }
 
-/* line 24, _buttons.scss */
+/* line 24, ../scss/_buttons.scss */
 .btn:hover {
   background-color: #E6B89C;
   font-size: medium;
 }
 
-/* line 28, _buttons.scss */
+/* line 28, ../scss/_buttons.scss */
 .btn:disabled {
   background-color: #9CAFB7;
   opacity: .4;
   font-size: small;
 }
 
-/* line 34, _buttons.scss */
+/* line 34, ../scss/_buttons.scss */
 .btn2 {
   width: 160px;
   height: 35px;
@@ -387,20 +387,20 @@ input {
   font-size: small;
 }
 
-/* line 45, _buttons.scss */
+/* line 45, ../scss/_buttons.scss */
 .btn2:hover {
   background-color: #028090;
   font-size: medium;
 }
 
-/* line 49, _buttons.scss */
+/* line 49, ../scss/_buttons.scss */
 .btn2:disabled {
   background-color: #8ECACD;
   opacity: .4;
   font-size: small;
 }
 
-/* line 55, _buttons.scss */
+/* line 55, ../scss/_buttons.scss */
 .btn3 {
   width: 160px;
   height: 35px;
@@ -413,20 +413,20 @@ input {
   font-size: small;
 }
 
-/* line 66, _buttons.scss */
+/* line 66, ../scss/_buttons.scss */
 .btn3:hover {
   background-color: #B5838D;
   font-size:  medium;
 }
 
-/* line 70, _buttons.scss */
+/* line 70, ../scss/_buttons.scss */
 .btn3:disabled {
   background-color: #6D6875;
   opacity: .4;
   font-size: small;
 }
 
-/* line 1, _footer.scss */
+/* line 1, ../scss/_footer.scss */
 #footer {
   background-color: #50514F;
   color: #ffffff;
@@ -438,28 +438,28 @@ input {
   padding: 72px 50px 100px 50px;
 }
 
-/* line 12, _footer.scss */
+/* line 12, ../scss/_footer.scss */
 .contact {
   float: right;
   text-align: right;
   width: 65%;
 }
 
-/* line 18, _footer.scss */
+/* line 18, ../scss/_footer.scss */
 .contact2 {
   float: right;
   text-align: right;
   width: 65%;
 }
 
-/* line 24, _footer.scss */
+/* line 24, ../scss/_footer.scss */
 .copyright {
   float: left;
   font-size: 14px;
   line-height: 20px;
 }
 
-/* line 8, main.scss */
+/* line 8, ../scss/main.scss */
 .headings {
   text-align: center;
 }
