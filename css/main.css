@@ -6,8 +6,7 @@ body {
   font-size: 16px;
   line-height: 25px;
   margin-left: 15px;
-  margin-right: 15px;
-}
+  margin-right: 15px; }
 
 /* line 11, ../scss/_elements.scss */
 h1 {
@@ -15,14 +14,12 @@ h1 {
   font-weight: 400;
   font-style: normal;
   font-size: 52px;
-  line-height: 60px;
-}
+  line-height: 60px; }
 
 /* line 19, ../scss/_elements.scss */
 h1.title {
   text-align: center;
-  color: #ED6A5A;
-}
+  color: #fb7360; }
 
 /* line 24, ../scss/_elements.scss */
 h2 {
@@ -30,22 +27,19 @@ h2 {
   font-size: 36px;
   line-height: 46px;
   font-weight: 400;
-  font-style: normal;
-}
+  font-style: normal; }
 
 /* line 32, ../scss/_elements.scss */
 h2.subtitle {
   text-align: center;
   color: grey;
-  padding-top: 200px;
-}
+  padding-top: 200px; }
 
 /* line 38, ../scss/_elements.scss */
 h2.subtitle-btn {
   text-align: center;
   color: #E6EBE0;
-  padding-top: 200px;
-}
+  padding-top: 200px; }
 
 /* line 46, ../scss/_elements.scss */
 h3 {
@@ -53,13 +47,11 @@ h3 {
   font-size: 28px;
   line-height: 36px;
   font-weight: 400;
-  font-style: normal;
-}
+  font-style: normal; }
 
 /* line 53, ../scss/_elements.scss */
 h3.strong {
-  color: #ED6A5A;
-}
+  color: #ED6A5A; }
 
 /* line 57, ../scss/_elements.scss */
 h4 {
@@ -67,72 +59,62 @@ h4 {
   font-size: 25px;
   line-height: 26px;
   font-weight: 400;
-  font-style: normal;
-}
+  font-style: normal; }
 
 /* line 65, ../scss/_elements.scss */
 h5 {
   font-family: 'Montserrat', Helvetica, sans-serif;
   font-size: 18px;
   font-weight: 400;
-  font-style: normal;
-}
+  font-style: normal; }
 
 /* line 72, ../scss/_elements.scss */
 p {
   font-family: 'Domine', serif;
   font-size: 16px;
   font-weight: 400;
-  font-style: normal;
-}
+  font-style: normal; }
 
 /* line 79, ../scss/_elements.scss */
 section {
   font-family: 'Domine', serif;
-  font-size: 18px;
-}
+  font-size: 18px; }
 
 /* line 84, ../scss/_elements.scss */
 ul {
   font-family: 'Lato', sans-serif;
   font-size: 16px;
   font-style: italic;
-  line-height: 2;
-}
+  line-height: 2; }
 
 /* line 91, ../scss/_elements.scss */
 ol {
   font-family: 'Lato', sans-serif;
   font-size: 16px;
-  line-height: 2;
-}
+  line-height: 2; }
 
 /* line 97, ../scss/_elements.scss */
 dt {
   font-family: 'Roboto', sans-serif;
   font-size: 25px;
   font-style: bold;
-  padding: 10px;
-}
+  padding: 10px; }
 
 /* line 104, ../scss/_elements.scss */
 dd {
   font-family: 'Roboto Thin', sans-serif;
   font-size: 16px;
-  padding: 10px;
-}
+  padding: 10px; }
 
 /* line 110, ../scss/_elements.scss */
  
 a {
   font-style: oblique;
-  font-variant: small-caps;
-}
+  font-variant: small-caps; }
 
 /* line 115, ../scss/_elements.scss */
 mark {
-  background-color: #ED6A5A;
-}
+  background-color: #ED6A5A; }
 
 /* line 119, ../scss/_elements.scss */
 p.quote {
@@ -143,26 +125,22 @@ p.quote {
   margin: 0px;
   font-family: "Montserrat Alternates";
   font-weight: 400;
-  background-color: #E6EBE0;
-}
+  background-color: #E6EBE0; }
 
 /* line 130, ../scss/_elements.scss */
 a {
   color: #4281A4;
   font-family: helvetica;
   font-size: small;
-  text-decoration: none;
-}
+  text-decoration: none; }
 
 /* line 136, ../scss/_elements.scss */
 a:hover {
-  color: #F25F5C;
-}
+  color: #F25F5C; }
 
 /* line 140, ../scss/_elements.scss */
 input {
-  background-color: #9CAFB7;
-}
+  background-color: #9CAFB7; }
 
 /* line 1, ../scss/_menu.scss */
 #menu-header {
@@ -172,33 +150,28 @@ input {
   width: 100%;
   background-color: #ffffff;
   text-transform: uppercase;
-  margin-top: 20px;
-}
+  margin-top: 1rem; }
 
 /* line 11, ../scss/_menu.scss */
 #menu-bar {
   float: right;
   padding: 15px;
-  position: relative;
-}
+  position: relative; }
 
 /*lista del menu principal del header*/
 /* line 18, ../scss/_menu.scss */
 #menu-bar li {
-  display: inline-block;
-}
+  display: inline-block; }
 
 /* line 22, ../scss/_menu.scss */
 .menu {
   float: right;
   margin-right: 50px;
-  color: grey;
-}
+  color: grey; }
 
 /* line 28, ../scss/_menu.scss */
 .ddl-menu {
-  background-color: #ffffff;
-}
+  background-color: #ffffff; }
 
 /* line 31, ../scss/_menu.scss */
 .ddl-menu::before {
@@ -206,38 +179,33 @@ input {
   height: 0;
   border-left: 50px solid transparent;
   border-right: 50px solid transparent;
-  border-bottom: 100px solid #ffffff;
-}
+  border-bottom: 100px solid #ffffff; }
 
 /*div typography*/
 /* line 2, ../scss/_typography.scss */
 #typography {
   background-color: #CBE0DD;
   padding: 25px;
-  margin: 25px;
-}
+  margin: 25px; }
 
 /*div colors*/
 /* line 2, ../scss/_colors.scss */
 #colors {
   background-color: #F5F6F4;
   padding: 25px;
-  margin: 25px;
-}
+  margin: 25px; }
 
 /* line 8, ../scss/_colors.scss */
 .palette-img {
   width: 25%;
   height: 25%;
-  margin-left: 10px;
-}
+  margin-left: 10px; }
 
 /* line 14, ../scss/_colors.scss */
 .palette-img-example {
   width: 200px;
   height: 100px;
-  margin-left: 10px;
-}
+  margin-left: 10px; }
 
 /* line 20, ../scss/_colors.scss */
 .circle {
@@ -247,92 +215,75 @@ input {
   -moz-border-radius: 50px;
   -webkit-border-radius: 50px;
   border-radius: 50px;
-  display: inline-block;
-}
+  display: inline-block; }
 
 /*palette num 1*/
 /* line 31, ../scss/_colors.scss */
 .color-CCCEC9 {
-  background-color: #CCCEC9;
-}
+  background-color: #CCCEC9; }
 
 /* line 32, ../scss/_colors.scss */
 .color-3B3432 {
-  background-color: #3B3432;
-}
+  background-color: #3B3432; }
 
 /* line 33, ../scss/_colors.scss */
 .color-D05352 {
-  background-color: #D05352;
-}
+  background-color: #D05352; }
 
 /* line 34, ../scss/_colors.scss */
 .color-FFAE99 {
-  background-color: #FFAE99;
-}
+  background-color: #FFAE99; }
 
 /* line 35, ../scss/_colors.scss */
 .color-FFDCCD {
-  background-color: #FFDCCD;
-}
+  background-color: #FFDCCD; }
 
 /*palette num 2*/
 /* line 38, ../scss/_colors.scss */
 .color-FFB997 {
-  background-color: #FFB997;
-}
+  background-color: #FFB997; }
 
 /* line 39, ../scss/_colors.scss */
 .color-F67E7D {
-  background-color: #F67E7D;
-}
+  background-color: #F67E7D; }
 
 /* line 40, ../scss/_colors.scss */
 .color-843B62 {
-  background-color: #843B62;
-}
+  background-color: #843B62; }
 
 /* line 41, ../scss/_colors.scss */
 .color-0B032D {
-  background-color: #0B032D;
-}
+  background-color: #0B032D; }
 
 /* line 42, ../scss/_colors.scss */
 .color-74546A {
-  background-color: #74546A;
-}
+  background-color: #74546A; }
 
 /*palette num 3*/
 /* line 45, ../scss/_colors.scss */
 .color-ED6A5A {
-  background-color: #ED6A5A;
-}
+  background-color: #ED6A5A; }
 
 /* line 46, ../scss/_colors.scss */
 .color-F4F1BB {
-  background-color: #F4F1BB;
-}
+  background-color: #F4F1BB; }
 
 /* line 47, ../scss/_colors.scss */
 .color-9BC1BC {
-  background-color: #9BC1BC;
-}
+  background-color: #9BC1BC; }
 
 /* line 48, ../scss/_colors.scss */
 .color-5CA4A9 {
-  background-color: #5CA4A9;
-}
+  background-color: #5CA4A9; }
 
 /* line 49, ../scss/_colors.scss */
 .color-E6EBE0 {
-  background-color: #E6EBE0;
-}
+  background-color: #E6EBE0; }
 
 /* line 51, ../scss/_colors.scss */
 #palette .color-title {
   color: grey;
-  padding-top: 100px;
-}
+  padding-top: 100px; }
 
 /*div buttons*/
 /* line 2, ../scss/_buttons.scss */
@@ -340,13 +291,11 @@ input {
   background-color: #9F5B7F;
   padding: 25px;
   margin: 25px;
-  min-height: 450px;
-}
+  min-height: 450px; }
 
 /* line 9, ../scss/_buttons.scss */
 .btn-line {
-  margin: 15px;
-}
+  margin: 15px; }
 
 /* line 13, ../scss/_buttons.scss */
 .btn {
@@ -358,21 +307,18 @@ input {
   /*border-radius: 10px;*/
   border-color: #E65F5C;
   font-family: 'Montserrat', helvetica, sans-serif;
-  font-size: small;
-}
+  font-size: small; }
 
 /* line 24, ../scss/_buttons.scss */
 .btn:hover {
   background-color: #E6B89C;
-  font-size: medium;
-}
+  font-size: medium; }
 
 /* line 28, ../scss/_buttons.scss */
 .btn:disabled {
   background-color: #9CAFB7;
   opacity: .4;
-  font-size: small;
-}
+  font-size: small; }
 
 /* line 34, ../scss/_buttons.scss */
 .btn2 {
@@ -384,21 +330,18 @@ input {
   border-radius: 0px;
   border-color: black;
   font-family: helvetica, sans-serif;
-  font-size: small;
-}
+  font-size: small; }
 
 /* line 45, ../scss/_buttons.scss */
 .btn2:hover {
   background-color: #028090;
-  font-size: medium;
-}
+  font-size: medium; }
 
 /* line 49, ../scss/_buttons.scss */
 .btn2:disabled {
   background-color: #8ECACD;
   opacity: .4;
-  font-size: small;
-}
+  font-size: small; }
 
 /* line 55, ../scss/_buttons.scss */
 .btn3 {
@@ -410,21 +353,18 @@ input {
   border-radius: 0px;
   border-color: black;
   font-family: helvetica, sans-serif;
-  font-size: small;
-}
+  font-size: small; }
 
 /* line 66, ../scss/_buttons.scss */
 .btn3:hover {
   background-color: #B5838D;
-  font-size:  medium;
-}
+  font-size:  medium; }
 
 /* line 70, ../scss/_buttons.scss */
 .btn3:disabled {
   background-color: #6D6875;
   opacity: .4;
-  font-size: small;
-}
+  font-size: small; }
 
 /* line 1, ../scss/_footer.scss */
 #footer {
@@ -435,31 +375,26 @@ input {
   font-style: normal;
   font-size: 22px;
   line-height: 28px;
-  padding: 72px 50px 100px 50px;
-}
+  padding: 72px 50px 100px 50px; }
 
 /* line 12, ../scss/_footer.scss */
 .contact {
   float: right;
   text-align: right;
-  width: 65%;
-}
+  width: 65%; }
 
 /* line 18, ../scss/_footer.scss */
 .contact2 {
   float: right;
   text-align: right;
-  width: 65%;
-}
+  width: 65%; }
 
 /* line 24, ../scss/_footer.scss */
 .copyright {
   float: left;
   font-size: 14px;
-  line-height: 20px;
-}
+  line-height: 20px; }
 
-/* line 8, ../scss/main.scss */
+/* line 9, ../scss/main.scss */
 .headings {
-  text-align: center;
-}
+  text-align: center; }
