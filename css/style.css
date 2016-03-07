@@ -1,0 +1,394 @@
+/*color variables*/
+/* line 1, ../scss/_menu.scss */
+#menu-header {
+  position: fixed;
+  top: 0;
+  height: auto;
+  width: 100%;
+  background-color: #ffffff;
+  text-transform: uppercase;
+  margin-top: 1rem; }
+
+/* line 11, ../scss/_menu.scss */
+#menu-bar {
+  float: right;
+  padding: 15px;
+  position: relative; }
+
+/*lista del menu principal del header*/
+/* line 18, ../scss/_menu.scss */
+#menu-bar li {
+  display: inline-block; }
+
+/* line 22, ../scss/_menu.scss */
+.menu {
+  float: right;
+  margin-right: 50px;
+  color: grey; }
+
+/* line 28, ../scss/_menu.scss */
+.ddl-menu {
+  background-color: #ffffff; }
+
+/* line 31, ../scss/_menu.scss */
+.ddl-menu::before {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid #ffffff; }
+
+/* line 1, ../scss/_typography.scss */
+body {
+  font-family: 'Domine', serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 25px;
+  margin-left: 15px;
+  margin-right: 15px; }
+
+/* line 21, ../scss/_typography.scss */
+h1 {
+  font-family: 'Montserrat', Helvetica, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 52px;
+  line-height: 60px; }
+
+/* line 29, ../scss/_typography.scss */
+h1.title {
+  text-align: center;
+  color: #fb7360; }
+
+/* line 34, ../scss/_typography.scss */
+h2 {
+  font-family: 'Montserrat', Helvetica, sans-serif;
+  font-size: 36px;
+  line-height: 46px;
+  font-weight: 400;
+  font-style: normal; }
+
+/* line 42, ../scss/_typography.scss */
+h2.subtitle {
+  text-align: center;
+  color: grey;
+  padding-top: 200px; }
+
+/* line 48, ../scss/_typography.scss */
+h2.subtitle-btn {
+  text-align: center;
+  color: #E6EBE0;
+  padding-top: 200px; }
+
+/* line 56, ../scss/_typography.scss */
+h3 {
+  font-family: 'Montserrat', Helvetica, sans-serif;
+  font-size: 28px;
+  line-height: 36px;
+  font-weight: 400;
+  font-style: normal; }
+
+/* line 63, ../scss/_typography.scss */
+h3.strong {
+  color: #ED6A5A; }
+
+/* line 67, ../scss/_typography.scss */
+h4 {
+  font-family: 'Montserrat', Helvetica, sans-serif;
+  font-size: 25px;
+  line-height: 26px;
+  font-weight: 400;
+  font-style: normal; }
+
+/* line 75, ../scss/_typography.scss */
+h5 {
+  font-family: 'Montserrat', Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal; }
+
+/* line 82, ../scss/_typography.scss */
+p {
+  font-family: 'Domine', serif;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal; }
+
+/* line 89, ../scss/_typography.scss */
+section {
+  font-family: 'Domine', serif;
+  font-size: 18px; }
+
+/* line 94, ../scss/_typography.scss */
+ul {
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  font-style: italic;
+  line-height: 2; }
+
+/* line 101, ../scss/_typography.scss */
+ol {
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  line-height: 2; }
+
+/* line 107, ../scss/_typography.scss */
+dt {
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  font-style: bold;
+  padding: 10px; }
+
+/* line 114, ../scss/_typography.scss */
+dd {
+  font-family: 'Roboto Thin', sans-serif;
+  font-size: 16px;
+  padding: 10px; }
+
+/* line 120, ../scss/_typography.scss */
+ 
+a {
+  font-style: oblique;
+  font-variant: small-caps; }
+
+/* line 125, ../scss/_typography.scss */
+mark {
+  background-color: #ED6A5A; }
+
+/* line 129, ../scss/_typography.scss */
+p.quote {
+  font-size: 23px;
+  line-height: 28px;
+  font-style: normal;
+  color: #666;
+  margin: 0px;
+  font-family: "Montserrat Alternates";
+  font-weight: 400;
+  background-color: #E6EBE0; }
+
+/* line 140, ../scss/_typography.scss */
+a {
+  color: #4281A4;
+  font-family: helvetica;
+  font-size: small;
+  text-decoration: none; }
+
+/* line 146, ../scss/_typography.scss */
+a:hover {
+  color: #F25F5C; }
+
+/* line 150, ../scss/_typography.scss */
+input {
+  background-color: #9CAFB7; }
+
+/* line 1, ../scss/content/_contentTypography.scss */
+#typography {
+  background-color: #b289a4;
+  padding: 25px;
+  margin: 25px; }
+  /* line 6, ../scss/content/_contentTypography.scss */
+  #typography .subtitle {
+    color: white; }
+
+/*div buttons*/
+/* line 2, ../scss/content/_contentButtons.scss */
+#buttons {
+  background-color: #f8a69b;
+  padding: 25px;
+  margin: 25px;
+  min-height: 450px; }
+  /* line 8, ../scss/content/_contentButtons.scss */
+  #buttons .subtitle {
+    color: white; }
+
+/*div colors*/
+/* line 2, ../scss/content/_contentPalettes.scss */
+#palettes {
+  background-color: #F5F6F4;
+  padding: 25px;
+  margin: 25px; }
+
+/* line 8, ../scss/content/_contentPalettes.scss */
+#palette .color-title {
+  color: grey;
+  padding-top: 100px; }
+
+/* line 13, ../scss/content/_contentPalettes.scss */
+.palette-img {
+  width: 25%;
+  height: 25%;
+  margin-left: 10px; }
+
+/* line 19, ../scss/content/_contentPalettes.scss */
+.palette-img-example {
+  width: 200px;
+  height: 100px;
+  margin-left: 10px; }
+
+/* line 25, ../scss/content/_contentPalettes.scss */
+.circle {
+  width: 100px;
+  height: 100px;
+  background: red;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  display: inline-block; }
+
+/*palette num 1*/
+/* line 2, ../scss/_colors.scss */
+.color-primary1 {
+  background-color: #fb7360; }
+
+/* line 3, ../scss/_colors.scss */
+.color-secondary1-1 {
+  background-color: #fb806f; }
+
+/* line 4, ../scss/_colors.scss */
+.color-secondary1-2 {
+  background-color: #f98c7d; }
+
+/* line 5, ../scss/_colors.scss */
+.color-secondary1-3 {
+  background-color: #f9998c; }
+
+/* line 6, ../scss/_colors.scss */
+.color-secondary1-4 {
+  background-color: #f8a69b; }
+
+/*palette num 2*/
+/* line 9, ../scss/_colors.scss */
+.color-primary2 {
+  background-color: #87426f; }
+
+/* line 10, ../scss/_colors.scss */
+.color-secondary2-1 {
+  background-color: #92547d; }
+
+/* line 11, ../scss/_colors.scss */
+.color-secondary2-2 {
+  background-color: #9c6589; }
+
+/* line 12, ../scss/_colors.scss */
+.color-secondary2-3 {
+  background-color: #a77796; }
+
+/* line 13, ../scss/_colors.scss */
+.color-secondary2-4 {
+  background-color: #b289a4; }
+
+/*other palettes*/
+/* line 16, ../scss/_colors.scss */
+.color-primary3 {
+  background-color: black; }
+
+/* line 17, ../scss/_colors.scss */
+.color-primary4 {
+  background-color: white; }
+
+/* line 1, ../scss/_buttons.scss */
+.btn-line {
+  margin: 15px; }
+
+/* line 5, ../scss/_buttons.scss */
+.btn {
+  width: 160px;
+  height: 35px;
+  margin: auto;
+  opacity: .85;
+  background-color: #ffffff;
+  /*border-radius: 10px;*/
+  border-color: #E65F5C;
+  font-family: 'Montserrat', helvetica, sans-serif;
+  font-size: small; }
+
+/* line 16, ../scss/_buttons.scss */
+.btn:hover {
+  background-color: #E6B89C;
+  font-size: medium; }
+
+/* line 20, ../scss/_buttons.scss */
+.btn:disabled {
+  background-color: #9CAFB7;
+  opacity: .4;
+  font-size: small; }
+
+/* line 26, ../scss/_buttons.scss */
+.btn2 {
+  width: 160px;
+  height: 35px;
+  margin: auto;
+  opacity: .85;
+  background-color: #92547d;
+  border-radius: 0px;
+  border-color: black;
+  font-family: helvetica, sans-serif;
+  font-size: small; }
+
+/* line 37, ../scss/_buttons.scss */
+.btn2:hover {
+  background-color: #028090;
+  font-size: medium; }
+
+/* line 41, ../scss/_buttons.scss */
+.btn2:disabled {
+  background-color: #8ECACD;
+  opacity: .4;
+  font-size: small; }
+
+/* line 47, ../scss/_buttons.scss */
+.btn3 {
+  width: 160px;
+  height: 35px;
+  margin: auto;
+  opacity: .85;
+  background-color: transparent;
+  border-radius: 0px;
+  border-color: black;
+  font-family: helvetica, sans-serif;
+  font-size: small; }
+
+/* line 58, ../scss/_buttons.scss */
+.btn3:hover {
+  background-color: #B5838D;
+  font-size:  medium; }
+
+/* line 62, ../scss/_buttons.scss */
+.btn3:disabled {
+  background-color: #6D6875;
+  opacity: .4;
+  font-size: small; }
+
+/* line 1, ../scss/_footer.scss */
+#footer {
+  background-color: #50514F;
+  color: #ffffff;
+  font-family: 'Montserrat', Helvetica, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 22px;
+  line-height: 28px;
+  padding: 72px 50px 100px 50px; }
+
+/* line 12, ../scss/_footer.scss */
+.contact {
+  float: right;
+  text-align: right;
+  width: 65%; }
+
+/* line 18, ../scss/_footer.scss */
+.contact2 {
+  float: right;
+  text-align: right;
+  width: 65%; }
+
+/* line 24, ../scss/_footer.scss */
+.copyright {
+  float: left;
+  font-size: 14px;
+  line-height: 20px; }
+
+/* line 11, ../scss/style.scss */
+.headings {
+  text-align: center; }
